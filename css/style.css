@@ -118,8 +118,14 @@ body {
 
 /*===== FIXED BACKGROUND IMG =====*/
 
+.fixed {
+    background-img: url('../img/matrix.jpg');
+}
 
-
+.fixed-background {
+    padding: 10rem 0;
+    position: fixed;
+}
 /*-- Emoji Navbar --*/
 
 
