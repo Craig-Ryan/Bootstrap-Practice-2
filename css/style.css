@@ -119,16 +119,27 @@ body {
 /*===== FIXED BACKGROUND IMG =====*/
 
 .fixed {
-    background-img: url('../img/matrix.jpg');
+    background-image: url('../img/matrix.jpg');
+    position: fixed; /*So the image appears to scroll when scrolling past*/
 }
 
 .fixed-background {
-    padding: 10rem 0;
+    padding: 10rem 0; /*Creates a bit of space top and bottom*/
     position: fixed;
 }
 /*-- Emoji Navbar --*/
 
+.emoji {
+    background-image: linear-gradient(to right, #4981b3, #AC2615);
+    min-height: 0!important;
+    padding: .4rem 0!important;
+}
 
+.emoji .svg-inline--fa {
+    margin: 0 auto;
+    color: #fff;
+    font-size: 2rem;
+}
 
 /*============= FOOTER =============*/
 
